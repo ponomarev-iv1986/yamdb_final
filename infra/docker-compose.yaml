@@ -16,7 +16,6 @@ services:
       - ./.env
   web:
     image: ponomarev1986/api_yamdb_infra:latest
-    # build: ../api_yamdb
     restart: always
     container_name: web-server
     volumes:
