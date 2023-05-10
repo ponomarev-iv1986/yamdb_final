@@ -14,7 +14,7 @@ DEBUG = False
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    os.getenv('PROD_HOST', '51.250.10.2')
+    '51.250.10.2'
 ]
 
 
